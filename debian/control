@@ -1,0 +1,17 @@
+Source: yadifa
+Section: misc
+Priority: optional
+Maintainer: Petri Savolainen <petri.savolainen@koodaamo.fi>
+Standards-Version: 3.8.4
+
+Package: yadifa
+Architecture: all
+Depends: libssl-dev, ${misc:Depends}
+Description: Internal Falcot Corp Documentation
+ This package provides several documents describing the internal
+ structure at Falcot Corp.  This includes:
+  - organization diagram
+  - contacts for each department.
+ .
+ These documents MUST NOT leave the company.
+ Their use is INTERNAL ONLY.
