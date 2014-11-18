@@ -111,7 +111,7 @@ die_on_error()
 	        fi
 	        
                 log "error: '$1' ($ERR)"
-                exit $err
+                exit $ERR
         fi
 }
 
